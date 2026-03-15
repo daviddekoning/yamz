@@ -1,0 +1,13 @@
+[project]
+name = "yamz"
+version = "0.1.0"
+description = "Yet Another Markdown Zip bundler"
+dependencies = [
+]
+
+[project.scripts]
+yamz = "yamz.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
