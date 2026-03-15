@@ -1,4 +1,6 @@
-![YAMZ so fresh](yamz.png)
+<div align="center">
+<img src="yamz.png" width=300px/>
+</div>
 
 # YAMZ
 
