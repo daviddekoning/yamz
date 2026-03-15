@@ -3,6 +3,7 @@ name = "yamz"
 version = "0.1.0"
 description = "Yet Another Markdown Zip bundler"
 dependencies = [
+    "pytest",
 ]
 
 [project.scripts]

@@ -31,7 +31,7 @@ def bundle(markdown_file):
         sys.exit(1)
 
     base_dir = md_path.parent
-    yamz_name = md_path.stem + ".mz"
+    yamz_name = md_path.stem + ".yamz"
 
     # Map of absolute path -> path in archive
     abs_to_zip = {
