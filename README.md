@@ -1,3 +1,5 @@
+![YAMZ so fresh](yamz.png)
+
 # YAMZ
 
 Yet Another Markdown Zip bundler — package a markdown file and all its referenced media into a single portable `.mz` archive.
@@ -5,7 +7,7 @@ Yet Another Markdown Zip bundler — package a markdown file and all its referen
 ## Installation
 
 ```
-pip install yamz
+pip install yamz-md
 ```
 
 ## Usage
