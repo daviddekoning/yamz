@@ -1,5 +1,5 @@
 [project]
-name = "yamz"
+name = "yamz-md"
 version = "0.1.0"
 description = "Yet Another Markdown Zip bundler"
 readme = "README.md"
