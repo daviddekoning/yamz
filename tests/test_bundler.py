@@ -16,7 +16,7 @@ def test_bundle_simple(tmp_path):
     os.chdir(tmp_path)
     bundle("test.md")
 
-    yamz_file = tmp_path / "test.yamz"
+    yamz_file = tmp_path / "test.mz"
     assert yamz_file.exists()
 
     with zipfile.ZipFile(yamz_file, 'r') as zipf:
@@ -41,7 +41,7 @@ def test_bundle_with_images(tmp_path):
     os.chdir(tmp_path)
     bundle("test.md")
 
-    yamz_file = tmp_path / "test.yamz"
+    yamz_file = tmp_path / "test.mz"
     assert yamz_file.exists()
 
     with zipfile.ZipFile(yamz_file, 'r') as zipf:
@@ -76,7 +76,7 @@ def test_bundle_outside_base(tmp_path):
     os.chdir(src)
     bundle("main.md")
 
-    yamz_file = src / "main.yamz"
+    yamz_file = src / "main.mz"
     assert yamz_file.exists()
 
     with zipfile.ZipFile(yamz_file, 'r') as zipf:

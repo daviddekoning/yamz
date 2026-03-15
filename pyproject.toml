@@ -3,7 +3,6 @@ name = "yamz"
 version = "0.1.0"
 description = "Yet Another Markdown Zip bundler"
 dependencies = [
-    "pytest",
 ]
 
 [project.scripts]
@@ -12,3 +11,8 @@ yamz = "yamz.main:main"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]

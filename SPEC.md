@@ -4,7 +4,7 @@
 YAMZ is a format for packaging a markdown file along with all its referenced media and dependencies into a single, portable archive.
 
 ## File Format
-A YAMZ file is a standard ZIP archive. It should typically use the `.yamz` extension.
+A YAMZ file is a standard ZIP archive. It should typically use the `.mz` extension.
 
 ## Archive Structure
 1. **root.txt**: A required text file at the root of the ZIP archive. It must contain a single line of text representing the relative path to the primary markdown file within the archive.
