@@ -15,3 +15,7 @@ venv/
 
 # OS
 .DS_Store
+
+# JavaScript
+javascript/node_modules/
+javascript/dist/
